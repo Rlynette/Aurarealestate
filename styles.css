@@ -130,3 +130,66 @@ img{
     box-shadow: 2px 2px 4px;
     background-color: #2549d3;
 }
+
+.products.work{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.products h2{
+    margin: 10px 40px;
+}
+
+.procedures{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.procedures .location{
+    margin: 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 80px 100px;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.procedures .location img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services{
+    margin: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.services.img2{
+    max-width: 50%;
+    display: flex;
+    flex: 1;
+}
+
+.services.content{
+    flex: 1;
+    display: grid;
+    align-content: center;
+    max-width: 50%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.services.content h2{
+    color: #0f298b;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.services.content p{
+    margin-left: 10px;
+}
+.services.content ul{
+    margin: 10px 10px;
+}
