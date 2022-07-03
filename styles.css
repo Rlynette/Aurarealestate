@@ -4,6 +4,19 @@
 h2{
     color: #0f298b;font-size: 38px;
 }
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 2px solid greenyellow;
+}
 .navbar{
-    flex: 1;
+    display: flex;
+    width: 80%;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
 }
