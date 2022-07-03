@@ -1,6 +1,9 @@
-a{margin-left: 200px;border: 10px;padding: 10px;
-color: #0f298B;
+.a{
+    margin-left: 30px;border: 40PX;padding: 10px;color: #2549db;
 }
-h2{color: #0f298B;font-size: 20px;
-
+h2{
+    color: #0f298b;font-size: 38px;
+}
+.navbar{
+    flex: 1;
 }
