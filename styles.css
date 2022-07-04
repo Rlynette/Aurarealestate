@@ -221,3 +221,38 @@ img{
     display: flex;
     justify-content: space-between;
 }
+.clients{
+    margin: 30px;
+    width: fit-content;
+}.client.client details{
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+}
+.client.client details h2{
+margin-bottom: 5px;
+}.clients.allclients{
+margin: 5px;
+display: flex;
+}
+.clients.allclients.client1{
+    margin: 10px;
+    flex: 1;
+    background-color:#fafafa ;
+    border-radius: 10px;
+    padding: 5px;
+}
+.clients.allclients.client1 h5{
+    padding: 5px 0;
+}
+.view.more{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+.view.more button{
+    width: 100px;
+    height: 40px;
+    background-color: #2549d3;
+    border-radius: 10px;
+}
