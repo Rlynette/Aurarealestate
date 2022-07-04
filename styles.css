@@ -167,13 +167,13 @@ img{
     padding: 10px;
 }
 
-.services.img2{
+.services .img2{
     max-width: 50%;
     display: flex;
     flex: 1;
 }
 
-.services.content{
+.services .content{
     flex: 1;
     display: grid;
     align-content: center;
@@ -182,20 +182,22 @@ img{
     padding: 10px;
 }
 
-.services.content h2{
+.services .content h2{
     color: #0f298b;
     font-family: sans-serif;
     margin-left: 10px;
 }
-.services.content p{
+.services .content p{
     margin-left: 10px;
 }
-.services.content ul{
+.services .content ul{
     margin: 10px 10px;
 }
 .properties{
     margin: 40px;
-}.prop.details{
+    display: flex;
+
+}.prop .details{
     text-align: center;
     width: 60px;
     height: 80px;
@@ -211,11 +213,11 @@ img{
 .prop.details p{
     padding: 5px;
 }
-.properties.images{
+.properties .images{
     display: flex;
     justify-content: space-between;
 }
-.properties.images.cost{
+.properties .images .cost{
     margin-top: 10px;
     padding: 6px;
     display: flex;
@@ -224,33 +226,36 @@ img{
 .clients{
     margin: 30px;
     width: fit-content;
-}.client.client details{
+}.client .client details{
     text-align: center;
     padding: 8px;
     font-family: sans-serif;
 }
-.client.client details h2{
+.client.client .details h2{
 margin-bottom: 5px;
-}.clients.allclients{
+}.clients .allclients{
 margin: 5px;
 display: flex;
 }
-.clients.allclients.client1{
+.clients .allclients .client1{
     margin: 10px;
     flex: 1;
     background-color:#fafafa ;
+    background-color: green;
     border-radius: 10px;
     padding: 5px;
 }
-.clients.allclients.client1 h5{
+.clients .allclients .client1 h5{
     padding: 5px 0;
 }
-.view.more{
+.view .more {
     display: flex;
     justify-content: flex-end;
     margin: 10px;
+    background-color: #0f298b;
 }
-.view.more button{
+.view .more button {
+    justify-content: flex-end;
     width: 100px;
     height: 40px;
     background-color: #2549d3;
@@ -258,17 +263,15 @@ display: flex;
 }
 .footer{
     background-color: #0f298b;
-    width: 100px;
-    height: 1000px;
     display: flex;
     color: #fafafa;
 }
-.home.pg{
-    font-size: 28px;
-    font-weight: bolder;
+.home .pg{
+    font-size: 30px;
+    font-weight: bold;
     font-family: sans-serif;
 }
-.footer.deets{
+.footer .deets{
     flex: 1;
     margin: 20px;
     padding: 20px 0;
