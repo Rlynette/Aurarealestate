@@ -193,3 +193,31 @@ img{
 .services.content ul{
     margin: 10px 10px;
 }
+.properties{
+    margin: 40px;
+}.prop.details{
+    text-align: center;
+    width: 60px;
+    height: 80px;
+    margin-left: 20%;
+    margin-bottom: 20%;
+}
+.prop.details h3{
+    font-family: sans-serif;
+    color: #0f298b ;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.prop.details p{
+    padding: 5px;
+}
+.properties.images{
+    display: flex;
+    justify-content: space-between;
+}
+.properties.images.cost{
+    margin-top: 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
