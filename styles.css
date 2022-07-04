@@ -256,3 +256,39 @@ display: flex;
     background-color: #2549d3;
     border-radius: 10px;
 }
+.footer{
+    background-color: #0f298b;
+    width: 100px;
+    height: 1000px;
+    display: flex;
+    color: #fafafa;
+}
+.home.pg{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.footer.deets{
+    flex: 1;
+    margin: 20px;
+    padding: 20px 0;
+}
+.footer.deets h2{
+    font-family: sans-serif;
+}
+.footer.moredeets{
+    flex: 1;
+    justify-content: center;
+    margin: 20px;
+}
+.footer.navigation{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+footer ul li a{
+    color: #fafafa;
+}
+.footer ul li{
+    margin-bottom: 20px;
+}
